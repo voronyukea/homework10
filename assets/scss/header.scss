@@ -1,0 +1,128 @@
+logo {
+  padding-top: 65px;
+  padding-left: 160px;
+}
+
+
+header {
+  background: url('../img/bgheader.png') no-repeat;
+  background-size: cover;
+  height: 1100px;
+}
+
+
+.logo__wrapper {
+  padding-top: 42px;
+  /* padding-left: 160px; */
+}
+
+
+nav {
+ height: 50px;
+ margin-top: -45px;
+}
+
+
+.menu li{
+           	display: inline-block;
+           	padding: 0 25px;
+}
+
+
+
+
+
+.menu li a{
+color: #fff;
+font-size: 18px;
+font-family: "Roboto", sans-serif ;
+}
+
+
+
+
+.menu li a:hover,
+    {
+      text-decoration: none;
+    }
+
+
+
+
+.menu button {
+background: transparent;
+border-radius: 20px;
+border-color: #233a72;
+width: 130px;
+height: 50px;
+color: #5584ff;
+font-size: 18px;
+font-family: "Roboto", sans-serif ;
+}
+
+
+.menu button a:hover {
+border-color: #233a72;
+
+}
+
+
+@font-face{
+font-family: 'Roboto';
+src:  url('../fonts/Roboto-Regular/Roboto-Regular.eot'),
+
+url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff'),
+url('./fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype'),
+url('./fonts/Roboto-Regular/Roboto-Regular.svg') format('svg');
+}
+
+@font-face{
+font-family: 'Roboto-Thin';
+src:  url('../fonts/Roboto-Thin/Roboto-Thin.eot'),
+
+url('../fonts/Roboto-Thin/Roboto-Thin.woff') format('woff'),
+url('./fonts/Roboto-Thin/Roboto-Thin.ttf') format('truetype'),
+url('./fonts/Roboto-Thin/Roboto-Thin.svg') format('svg');
+}
+
+
+.header-content__title {
+  display: block;
+  margin: auto;
+  padding-top: 185px;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+  font-family: "Roboto-Thin", sans-serif ;
+}
+
+
+.header-content__subtitle {
+  display: block;
+  margin: auto;
+  padding-top: 38px;
+  text-align: center;
+  font-size: 36px;
+  color: #8492af;
+  font-family: "Roboto", sans-serif ;
+}
+
+
+.header-content__button {
+
+  margin-top: 91px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif ;
+  font-weight: bold;
+  color: #fff;
+  background: #5584ff;
+}
+
+
+.header-content {
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+article {
+  height: 852px;
+}
+
+
+.article-content__seemore {
+  padding-top:257px;
+  display: flex;
+  justify-content:  center;
+
+}
+
+
+.block-content__seemore {
+
+   flex-direction: row;
+   text-align: center;
+   padding-left: 125px;
+}
+
+
+.article-content__title {
+padding-top: 67px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif ;
+  font-weight: bold;
+  color: #000;
+}
+
+
+.article-content_text {
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif ;
+  color: #8492af;
+  width: 360px;
+  height: 70px;
+}
+
+
+.article-content__button {
+  margin-top: 55px;
+  width: 255px;
+  height: 50px;
+  border-radius: 20px;
+  background: transparent;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif ;
+  font-weight: bold;
+}
